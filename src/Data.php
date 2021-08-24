@@ -16,7 +16,6 @@ class Data {
 	 * @return array|null Tournament list
 	 */
 	public static function getFromTitle( $title ) {
-		echo 'Test';
 		if ( $title->exists() ) {
 			$tournamentData = [];
 			$wikipage = WikiPage::factory( $title );
